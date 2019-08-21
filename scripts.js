@@ -2,7 +2,7 @@ function load() {
   let message = document.querySelector("div.message");
   let image = document.querySelector("img.image");
   let date = new Date();
-  let hour = 12;
+  let hour = date.getHours();
   let minute = date.getMinutes();
 
   if (hour < 12) {
